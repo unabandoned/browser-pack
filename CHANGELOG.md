@@ -2,6 +2,20 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.1.3](https://github.com/unabandoned/browser-pack/compare/browser-pack-v6.1.2...browser-pack-v6.1.3) (2026-08-13)
+
+
+### Bug Fixes
+
+* await combine-source-map's async comment() ([#12](https://github.com/unabandoned/browser-pack/issues/12)) ([215debd](https://github.com/unabandoned/browser-pack/commit/215debd284be4ce43c43c117a512d5d701a6ae8f))
+* **deps:** consume @unabandoned/combine-source-map ([#13](https://github.com/unabandoned/browser-pack/issues/13)) ([dc574fb](https://github.com/unabandoned/browser-pack/commit/dc574fb7a86c193c0f1850af3e0a6ab2d629673c))
+
+
+### Dependencies & maintenance
+
+* **deps:** update unabandoned/.github digest to 5218bc5 ([#14](https://github.com/unabandoned/browser-pack/issues/14)) ([73eefe4](https://github.com/unabandoned/browser-pack/commit/73eefe44b9187c09989965a2b8b363e2f8ae4ea8))
+* **deps:** update unabandoned/.github digest to 7450acb ([#10](https://github.com/unabandoned/browser-pack/issues/10)) ([59f4df0](https://github.com/unabandoned/browser-pack/commit/59f4df0163277a5edcd9065cc5818cee8828b022))
+
 ## [6.1.2](https://github.com/unabandoned/browser-pack/compare/browser-pack-v6.1.1...browser-pack-v6.1.2) (2026-08-13)
 
 
