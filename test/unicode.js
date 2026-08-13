@@ -1,4 +1,4 @@
-var test = require('tap').test;
+var test = require('./tap-adapter').test;
 var pack = require('../');
 
 test('unicode', function (t) {
