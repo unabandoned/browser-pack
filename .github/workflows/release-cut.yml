@@ -10,5 +10,5 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    uses: unabandoned/.github/.github/workflows/reusable-release-cut.yml@5218bc51c951148887c6a7322f553e50ad67821b # main
+    uses: unabandoned/.github/.github/workflows/reusable-release-cut.yml@65e1d30043e2fec1a49ebfba36d771d2acce8e2c # main
     secrets: inherit
