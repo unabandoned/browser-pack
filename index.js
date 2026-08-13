@@ -51,7 +51,10 @@ module.exports = function (opts) {
     parser.pipe(new Writable({
         objectMode: true,
         write: function (row, enc, next) { write(row, enc, next); },
-        final: function (next) { end(); next(); }
+        // end() is async because combine-source-map's comment() returns a
+        // promise (source-map >= 7 decodes asynchronously); wait for the
+        // trailer to be pushed before finalizing the writable.
+        final: function (next) { end().then(function () { next(); }, next); }
     }));
     stream.standaloneModule = opts.standaloneModule;
     stream.hasExports = opts.hasExports;
@@ -119,7 +122,7 @@ module.exports = function (opts) {
         next();
     }
 
-    function end () {
+    async function end () {
         if (first) stream.push(Buffer.from(prelude + '({', 'utf8'));
         entries = entries.filter(function (x) { return x !== undefined });
 
@@ -136,7 +139,9 @@ module.exports = function (opts) {
         }
 
         if (sourcemap) {
-            var comment = sourcemap.comment();
+            // Works with both sync (source-map <= 6) and async (>= 7)
+            // combine-source-map: await passes a plain string straight through.
+            var comment = await sourcemap.comment();
             if (opts.sourceMapPrefix) {
                 comment = comment.replace(
                     /^\/\/#/, function () { return opts.sourceMapPrefix }
