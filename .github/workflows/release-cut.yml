@@ -1,0 +1,14 @@
+name: release-cut
+on:
+  schedule:
+    - cron: '0 6 1 * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  cut:
+    permissions:
+      contents: write
+      pull-requests: write
+    uses: unabandoned/.github/.github/workflows/reusable-release-cut.yml@5a06bdfe75ead7614f6a2bdddfa00f60b4cc9c9b # main
+    secrets: inherit
