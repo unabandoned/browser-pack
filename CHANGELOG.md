@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.1.2](https://github.com/unabandoned/browser-pack/compare/browser-pack-v6.1.1...browser-pack-v6.1.2) (2026-08-13)
+
+
+### Dependencies & maintenance
+
+* add Renovate config validation workflow ([#7](https://github.com/unabandoned/browser-pack/issues/7)) ([aaf3e50](https://github.com/unabandoned/browser-pack/commit/aaf3e5032338cf93676a7cca32c65f4380bdaee4))
+
 ## [6.1.1](https://github.com/unabandoned/browser-pack/compare/browser-pack-v6.1.0...browser-pack-v6.1.1) (2026-08-13)
 
 
