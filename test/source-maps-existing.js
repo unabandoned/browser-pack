@@ -1,4 +1,4 @@
-var test = require('tap').test;
+var test = require('./tap-adapter').test;
 var pack = require('../');
 var convert = require('convert-source-map');
 var parse = require('parse-base64vlq-mappings');
