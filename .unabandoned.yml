@@ -1,0 +1,23 @@
+schema: 1
+
+package: "@unabandoned/browser-pack"
+
+upstream:
+  repo: browserify/browser-pack
+  reason: "unmaintained upstream in the browserify ecosystem — left idle while its dependency tree ages"
+
+summary: >-
+  Packs a JSON stream of Node-style module records into a single self-contained
+  browser bundle with a runtime require() shim.
+
+why-forked: >-
+  A core browserify pipeline stage that went unmaintained while its dependency
+  tree aged; forked so Renovate keeps that tree current for consumers.
+
+status: active
+
+used-by:
+  - consumer: "@unabandoned/browserify"
+    purpose: "Emits the final packed browser bundle at the end of the pipeline."
+
+tags: [browserify, bundle, pack, commonjs]
