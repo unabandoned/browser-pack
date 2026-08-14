@@ -2,6 +2,22 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.1.4](https://github.com/unabandoned/browser-pack/compare/browser-pack-v6.1.3...browser-pack-v6.1.4) (2026-08-14)
+
+
+### Bug Fixes
+
+* repoint JSONStream at its [@unabandoned](https://github.com/unabandoned) fork ([#20](https://github.com/unabandoned/browser-pack/issues/20)) ([b0ed53e](https://github.com/unabandoned/browser-pack/commit/b0ed53ec3ba73e8ac1a741dd07dd591c59d3619e))
+
+
+### Dependencies & maintenance
+
+* add .unabandoned.yml dashboard metadata ([#17](https://github.com/unabandoned/browser-pack/issues/17)) ([4232256](https://github.com/unabandoned/browser-pack/commit/4232256d9e8633f5702d5a6e4311385ff8ebb80b))
+* **deps:** update unabandoned/.github digest to 65e1d30 ([#15](https://github.com/unabandoned/browser-pack/issues/15)) ([5e7695e](https://github.com/unabandoned/browser-pack/commit/5e7695ef6010280ca98edac7190dd994c02f98ba))
+* **deps:** update unabandoned/.github digest to 88ce617 ([#18](https://github.com/unabandoned/browser-pack/issues/18)) ([45e1e64](https://github.com/unabandoned/browser-pack/commit/45e1e64c27f4e0427c051e2bfd0f4ffe6d993134))
+* **deps:** update unabandoned/.github digest to d493a18 ([#19](https://github.com/unabandoned/browser-pack/issues/19)) ([b6f8519](https://github.com/unabandoned/browser-pack/commit/b6f85199d5be966aad121fd14405b6c266c9638d))
+* pin reusable workflows to the @unabandoned/.github v1.0.0 release ([#21](https://github.com/unabandoned/browser-pack/issues/21)) ([3137352](https://github.com/unabandoned/browser-pack/commit/313735290af81490a39e86cdeca95904de48933d))
+
 ## [6.1.3](https://github.com/unabandoned/browser-pack/compare/browser-pack-v6.1.2...browser-pack-v6.1.3) (2026-08-13)
 
 
