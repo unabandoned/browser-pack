@@ -27,7 +27,7 @@
     "require"
   ],
   "dependencies": {
-    "JSONStream": "1.3.5",
+    "JSONStream": "npm:@unabandoned/jsonstream@^1",
     "combine-source-map": "npm:@unabandoned/combine-source-map@^1.0.0",
     "umd": "3.0.3"
   },
