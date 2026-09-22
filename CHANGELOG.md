@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.1.6](https://github.com/unabandoned/browser-pack/compare/browser-pack-v6.1.5...browser-pack-v6.1.6) (2026-09-22)
+
+
+### Dependencies & maintenance
+
+* **deps:** update unabandoned/.github action to v1.0.4 ([#27](https://github.com/unabandoned/browser-pack/issues/27)) ([032583c](https://github.com/unabandoned/browser-pack/commit/032583c21e5f0b1460ad895783bec25ecf8b6540))
+* **deps:** update unabandoned/.github action to v1.0.5 ([#28](https://github.com/unabandoned/browser-pack/issues/28)) ([7523eab](https://github.com/unabandoned/browser-pack/commit/7523eab4203bdaec5abf386ae2d54a9c622f9e1b))
+* **deps:** update unabandoned/.github action to v1.1.0 ([#30](https://github.com/unabandoned/browser-pack/issues/30)) ([e806dc1](https://github.com/unabandoned/browser-pack/commit/e806dc1dd9095207175a42bf9aad90c371274329))
+
 ## [6.1.5](https://github.com/unabandoned/browser-pack/compare/browser-pack-v6.1.4...browser-pack-v6.1.5) (2026-08-28)
 
 
