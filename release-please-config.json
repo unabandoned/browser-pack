@@ -11,11 +11,11 @@
         { "type": "perf", "section": "Performance Improvements" },
         { "type": "revert", "section": "Reverts" },
         { "type": "deps", "section": "Dependencies & maintenance" },
-        { "type": "build", "hidden": true },
+        { "type": "build", "section": "Dependencies & maintenance" },
         { "type": "chore", "hidden": true },
         { "type": "ci", "hidden": true },
-        { "type": "refactor", "hidden": true },
-        { "type": "docs", "hidden": true },
+        { "type": "refactor", "section": "Dependencies & maintenance" },
+        { "type": "docs", "section": "Dependencies & maintenance" },
         { "type": "test", "hidden": true },
         { "type": "style", "hidden": true }
       ]
